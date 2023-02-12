@@ -3,7 +3,7 @@ const previousButton = document.getElementById("previous-button");
 const nextButton = document.getElementById("next-button");
 const image = document.getElementById("image");
 
-let currentImageIndex = 1;
+let currentImageIndex = 0;
 const images = [
   "https://cdn.pixabay.com/photo/2017/10/02/07/12/nude-2808070__340.jpg",
   "https://cdn.pixabay.com/photo/2013/05/30/18/21/cat-114782__340.jpg",
